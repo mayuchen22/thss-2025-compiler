@@ -21,8 +21,8 @@ enum class TokenType {
 
   PLUS, MINUS, MUL, DIV,
   DOT,
-  SQUOTE
   // TODO: add more
+  SQUOTE
 };
 
 struct Token {

@@ -31,8 +31,8 @@ std::string tokenTypeToString(TokenType t) {
     {TokenType::MUL, "MUL"},
     {TokenType::DIV, "DIV"},
     {TokenType::DOT, "DOT"},
-    {TokenType::SQUOTE, "SQUOTE"}
     // TODO: add more token types
+    {TokenType::SQUOTE, "SQUOTE"}
   };
   auto it = names.find(t);
   if (it != names.end()) return it->second;
