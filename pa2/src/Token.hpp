@@ -20,7 +20,8 @@ enum class TokenType {
   COMMA, SEMI,
 
   PLUS, MINUS, MUL, DIV,
-  DOT
+  DOT,
+  SQUOTE
   // TODO: add more
 };
 

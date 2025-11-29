@@ -19,4 +19,6 @@ protected:
 
   void advance(); // consume current char and advance to next char
   void resetPos(int newPos); // reset pos to newPos and update peek accordingly
+
+  int getPosition() const;
 };
